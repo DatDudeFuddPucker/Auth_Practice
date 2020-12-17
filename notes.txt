@@ -1,0 +1,28 @@
+those who wrote express, decided that they are building a node module that will allow them to do that.
+Express was built to handle the responses from the browser and what to send back to the browser.
+'Next' comes from express
+req = request
+res = response
+next = 
+
+JWT Notes:
+
+
+Purpose of Roles DB
+We are going to have a protected data.
+We need to have for example admin users to help moderate and maintain the DB.
+Both on Data and user behavior.
+
+"passwordIsValid" - what does it do/return?
+it returns a  - 
+
+
+// 'user.controller.js' file
+ //-------------------> Purpose of this page?????
+    - This is simply how we are oging ot test our data. 
+    - This will help us find out that our data is actually protected. 
+//--------------------> Why We dont use 'Next()' on this file. 
+- The first three exports on this page are our routes. 
+- This is not a middleware. We typically use 'Next" only in middleware to keep the processes going.
+- We dont use 'next' here because we are not calling any functions where there might be a pause in data or code that might 
+    - bring the process to a halt. 
